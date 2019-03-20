@@ -2,7 +2,7 @@ import React from 'react';
 import Message from './Message';
 import Formulaire from './Formulaire';
 import base from '../base';
-
+import './App.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import '../animation.css';
 
@@ -49,7 +49,7 @@ isUser = (pseudo) => {
 			isUser={this.isUser}/>)
 		return (
 			<div className="box">
-				<div>
+				<div className="containerMessage">
 					<div className="messages" 
 					ref={input => this.messages = input}
 					>

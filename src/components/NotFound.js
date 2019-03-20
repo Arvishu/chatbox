@@ -1,8 +1,9 @@
 import React from 'react';
 
 const NotFound = () => {
-	return (
-		<h2 className="notFound">Y'a rien ici!</h2>
+	return (<div className="notFound">
+		<h2 >You are on the Moon, Fool.</h2>
+		</div>
 	)
 }
 

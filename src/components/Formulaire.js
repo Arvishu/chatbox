@@ -39,7 +39,8 @@ class Formulaire extends React.Component {
 					required
 					maxLength={this.props.length}
 					ref={input => this.message = input}
-					onChange={(e) => this.compteur(e)} >
+					onChange={(e) => this.compteur(e)}
+					placeholder='Envoie un message dans le cosmos !!!' >
 				</textarea>
 
 				<div
